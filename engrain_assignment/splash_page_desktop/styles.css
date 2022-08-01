@@ -1,0 +1,585 @@
+body {
+    width: 1920px;
+    margin: auto;
+    text-align: center;
+    background-color: #F7F8FA;
+    font-family: 'Poppins';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 1920px;
+    height: 101px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #EDEFF2;
+}
+
+.checker-logo-container {
+    width: 267px;
+    height: 53px;
+    top: 24px;
+    left: 40px;
+}
+
+nav {
+    width: 771px;
+    height: 101px;
+    left: 1109px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+.nav-item {
+    height: 24px;
+    color: #616366;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.interest-list-button {
+    background-color: #1160E9;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.big-photo-and-headline-container {
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-apartment-complex-photo {
+    margin-top: 72px;
+    margin-left: 296px;
+    margin-right: 160px;
+    width: 1464px;
+    height: 824px;
+}
+
+.headline-card {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 64px;
+    gap: 16px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    width: 368px;
+    height: 368px;
+    left: 160px;
+    top: 300px;
+}
+
+.headline-card-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #222426;
+    margin-bottom: 0;
+}
+
+.headline-card-paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #616366;
+}
+
+.brand-bar {
+    position: absolute;
+    width: 1920px;
+    height: 8px;
+    background: #1160E9;
+    bottom: 350px;
+    z-index: -1;
+}
+
+.overview-card {
+    width: 1760px;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 56px;
+}
+
+.living-room-photo {
+    padding: 0;
+    width: 909px;
+    height: 514px;
+    border-radius: 4px;
+    margin-left: 80px
+}
+
+.overview-text-container {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 634px;
+    height: 452px;
+}
+
+.blue-text {
+    color: #1160E9;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #222426;
+    margin: 0;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #616366;
+    margin: 0;
+}
+
+.room-options-container {
+    margin-top: 96px;
+    margin-bottom: 72px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #222426;
+}
+
+.room-options-heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #222426;
+}
+
+.room-options-list {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 160px;
+    width: 1102px;
+    height: 118px;
+}
+
+.room-option-letter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 80px;
+    color: #222426;
+    margin-bottom: 0;
+}
+
+.room-options-word {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #616366;
+}
+
+.amenities-container {
+    margin: auto 80px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px 20px 80px;
+    gap: 56px;
+}
+
+.amenities-heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #222426;
+    margin-bottom: 0;
+}
+
+.amenities-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    list-style-position: inside;
+}
+
+.amenities-bullet-point {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #616366;
+    margin-left: 15px;
+}
+
+.camera-icon-bullet {
+    list-style-image: url('images/icons/Camera.png');
+}
+
+.amenities-photo-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 8px;
+    width: 909px;
+    height: 1124px;
+}
+
+.amenities-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.amenities-photo {
+    width: 909px;
+    height: 514px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.amenities-photo-caption {
+    font-style: italic;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #616366;
+}
+
+.neighborhood-container {
+    text-align: center;
+    margin: 0px;
+}
+
+.neighborhood-heading {
+    position: relative;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: auto;
+    margin-bottom: 0;
+    width: 674px;
+    height: 180px;
+}
+
+.neighborhood-location {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #616366;
+}
+
+.neighborhood-checker-photo {
+    position: relative;
+    top: 188px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 1330px;
+    height: 648px;
+    filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.08));
+    border-radius: 8px;
+}
+
+.neighborhood-bottom-edge {
+    margin: 0;
+    width: 1920px;
+    height: 137px;
+    background: #2B2E33;
+    border: none;
+    z-index: -1;
+}
+
+.neighborhood-border-bar {
+    border: none;
+    margin: 0;
+    width: 1920px;
+    height: 8px;
+    background: #1160E9;
+    z-index: -1;
+}
+
+.signup-container {
+    padding: 96px;
+    background-color: #2B2E33;
+    color: #FFFFFF;
+    width: 1728px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.signup-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.input-row {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    padding: 0px;
+    gap: 56px;
+}
+
+.input-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.signup-input-label {
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-req-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #9DA1A6;
+    text-align: right;
+}
+
+.signup-text-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 358px;
+    height: 48px;
+    padding: 8px 16px;
+    background: #2B2E33;
+    border: 2px solid #919499;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+#i-heard-about-you-selector, #i-am-a-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 845px;
+    height: 72px;
+    background: #2B2E33;
+    border: 2px solid #919499;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 16px 16px;
+    margin: 0;
+}
+
+.placeholder-option {
+    color: #9DA1A6;
+}
+
+#bedroom-count-selector, #move-in-date-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 700px;
+    height: 72px;
+    background: #2B2E33;
+    border: 2px solid #919499;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 16px 16px;
+    margin: 0;
+}
+
+.pet-selector-area {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.radio-button-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    gap: 24px;
+}
+
+.radio-button-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    gap: 8px;
+}
+
+.pet-radio-button {
+    width: 24px;
+    height: 24px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.pet-button-label {
+    font-weight: 400;
+    font-size: 20px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+#yes-pet {
+    background: #2B2E33;
+    border: 2px solid #919499;
+}
+
+#no-pet {
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+footer {
+    border-top: 1px solid #919499;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+    width: 1760px;
+    height: 24px;
+    background: #2B2E33;
+    margin-bottom: 0;
+}
+
+footer div, footer div p, footer div img {
+    margin: 0;
+    border: none;
+}
+
+footer div p a {
+    color: #9DA1A6;
+    margin: 0 5px;
+}
+
+footer div p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #9DA1A6;
+}
+
+footer div img {
+    height: 30px;
+}

@@ -1,0 +1,593 @@
+body {
+    width: 375px;
+    background-color: #F7F8FA;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 375px;
+    height: 63px;
+}
+
+.small-checker-logo {
+    width: 155px;
+    height: 31px;
+}
+
+.big-photo-and-headline-container {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-apartment-complex-photo {
+    width: 375px;
+    height: 496px;
+}
+
+.headline-card {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 295px;
+    height: 256px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.headline-card-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.headline-card-paragraph {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616366;
+}
+
+.interest-list-button {
+    margin: 0;
+    background-color: #1160E9;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 24px;
+    width: 213px;
+    height: 56px;
+}
+
+
+.brand-bar {
+    margin: 0;
+    position: relative;
+    bottom: 175px;
+    z-index: -1;
+    width: 375px;
+    height: 8px;
+    background: #1160E9;
+}
+
+.overview-card {
+    width: 311px;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px 40px;
+    gap: 40px;
+}
+
+.living-room-photo {
+    padding: 0;
+    width: 311px;
+    height: 175px;
+    border-radius: 4px;
+}
+
+.overview-text-container {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 311px;
+ }
+
+.blue-text {
+    color: #1160E9;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sub-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222426;
+    margin: 0 auto;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616366;
+    margin: 0;
+}
+
+.room-options-container {
+    margin-top: 48px;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #222426;
+    width: 311px;
+    height: 392px;
+    margin-bottom: 56px;
+}
+
+.room-options-heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #222426;
+}
+
+.room-options-list {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 266px;
+    height: 300px;
+}
+
+.room-options-list-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    width: 113px;
+    height: 300px;
+}
+
+.room-options-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    width: 75px;
+    height: 118px;
+}
+
+.room-option-letter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 80px;
+    color: #222426;
+    margin: 0;
+}
+
+.room-options-word {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #616366;
+}
+
+.amenities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 16px 16px;
+    gap: 40px;
+    width: 343px;
+    height: 1700px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: auto 80px;
+    margin-top: 56px;
+}
+
+.amenities-top-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222426;
+}
+
+.amenities-heading-and-list {
+    margin: auto 16px;
+}
+
+.amenities-heading {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #222426;
+    margin-bottom: 0;
+}
+
+.amenities-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    list-style-position: outside;
+    margin: auto 16px;
+}
+
+.amenities-bullet-point {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616366;
+}
+
+.camera-icon-bullet {
+    list-style-image: url('images/icons/Camera.png');
+}
+
+.amenities-photo-area {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 311px;
+    height: 430px;
+}
+
+.amenities-photo-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.amenities-photo {
+    width: 311px;
+    height: 175px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.amenities-photo-caption {
+    font-style: italic;
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #616366;
+}
+
+.neighborhood-container {
+    width: 375px;
+    height: 696px;
+    text-align: center;
+    margin: 0px;
+}
+
+.neighborhood-heading {
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 342px;
+    height: 128px;
+}
+
+.neighborhood-sub-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.neighborhood-location {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #616366;
+}
+
+.neighborhood-checker-photo {
+    position: relative;
+    top: 80px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 342px;
+    height: 480px;
+    filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.08));
+    border-radius: 8px;
+}
+
+.neighborhood-bottom-edge {
+    margin: 0;
+    width: 375px;
+    height: 137px;
+    background: #2B2E33;
+    border: none;
+    z-index: -1;
+}
+
+.neighborhood-border-bar {
+    border: none;
+    margin: 0;
+    width: 375px;
+    height: 8px;
+    background: #1160E9;
+    z-index: -1;
+}
+
+.signup-container {
+    padding: 16px 24px 40px;
+    background-color: #2B2E33;
+    color: #FFFFFF;
+    width: 327px;
+    height: 1160px;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.signup-heading {
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 327px;
+    height: 920px;
+}
+
+.input-and-label, .select-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.signup-input-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.input-req-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #9DA1A6;
+    text-align: right;
+}
+
+.signup-text-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    width: 295px;
+    height: 32px;
+    background: #2B2E33;
+    border: 2px solid #919499;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+#i-heard-about-you-selector, #i-am-a-selector, #bedroom-count-selector, #move-in-date-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 327px;
+    height: 48px;
+    background: #2B2E33;
+    border: 2px solid #919499;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #9DA1A6;
+    /* margin: 0; */
+}
+
+.placeholder-option {
+    color: #9DA1A6;
+}
+
+.selectable-option {
+    color: #FFFFFF;
+}
+
+
+.pet-selector-area {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+}
+
+.radio-button-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    gap: 24px;
+}
+
+.radio-button-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    gap: 8px;
+}
+
+.pet-radio-button {
+    width: 24px;
+    height: 24px;
+}
+
+.pet-button-label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#yes-pet {
+    background: #2B2E33;
+    border: 2px solid #919499;
+}
+
+#no-pet {
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+footer {
+    border-top: 1px solid #919499;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 16px;
+    gap: 16px;
+    width: 375px;
+    height: 200px;
+    background: #2B2E33;
+    margin: 0;
+}
+
+.footer-content {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 375px;
+    height: 168px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #9DA1A6;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content p a {
+    color: #9DA1A6;
+}
